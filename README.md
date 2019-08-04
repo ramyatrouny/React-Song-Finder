@@ -9,10 +9,11 @@ Link: https://loving-tesla-52104a.netlify.com/
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install node_modules.
+Use Node Package Manager (Npm or Yarn ) to install node_modules.
 
 ```bash
 npm install
+yarn
 ```
 
 Create a .env file and add your developer key as the following
