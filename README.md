@@ -2,6 +2,11 @@
 
 Simple React Application using MusixMatch API to search for a song and get lyrics for it
 
+Link: https://loving-tesla-52104a.netlify.com/
+
+<!-- Markdown snippet -->
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/netlify-statuskit)
+
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install node_modules.
