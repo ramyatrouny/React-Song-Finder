@@ -28,7 +28,7 @@ export class Provider extends Component {
     // Component did mount is called render after it's mount we will use axios
     // Best location to do http call
     componentDidMount() {
-        axios.get(`https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/chart.tracks.get?chart_name=top&page=1&page_size=10&country=us&f_has_lyrics=1&apikey=${process.env.REACT_APP_MM_KEY}`)
+        axios.get(`https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/chart.tracks.get?chart_name=top&page=1&page_size=10&country=us&f_has_lyrics=1&apikey=${process.env.MUSIXMATCHKEY}`)
             .then(res => {
                 // console.log(res.data);
                 this.setState({
