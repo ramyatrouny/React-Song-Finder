@@ -24,7 +24,9 @@ class Search extends Component {
 
             this.setState({
                 trackTitle: ''
-            })
+            });
+
+            
 
         })
         .catch(err => console.log(err));
